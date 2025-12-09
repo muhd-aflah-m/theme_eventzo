@@ -1,0 +1,83 @@
+.s_eventzo_photography_booking {
+    background: #462861; /* deep purple background */
+    color: #fff;
+    padding: 80px 0;
+    font-family: 'Poppins', sans-serif;
+
+    .eventzo_booking_content {
+        max-width: 500px;
+
+        .eventzo_booking_subtitle {
+            text-transform: uppercase;
+            font-size: 14px;
+            letter-spacing: 1px;
+            color: #c8a9e3;
+            margin-bottom: 10px;
+        }
+
+        .eventzo_booking_title {
+            font-size: 2rem;
+            font-weight: 700;
+            line-height: 1.4;
+            margin-bottom: 20px;
+        }
+
+        .eventzo_booking_text {
+            font-size: 15px;
+            line-height: 1.8;
+            color: #f4e9ff;
+        }
+    }
+
+    .eventzo_booking_form {
+        .form-control {
+            border: none;
+            border-radius: 6px;
+            padding: 12px 14px;
+            font-size: 14px;
+        }
+
+        textarea.form-control {
+            resize: none;
+        }
+
+        .eventzo_submit_btn {
+            display: inline-block;
+            border: 1.5px solid #fff;
+            color: #fff;
+            font-weight: 600;
+            background: transparent;
+            border-radius: 4px;
+            padding: 10px 25px;
+            font-size: 14px;
+            letter-spacing: 1px;
+            transition: all 0.3s ease;
+        }
+
+        .eventzo_submit_btn:hover {
+            background: #7b3ee6;
+            border-color: #7b3ee6;
+            color: #fff;
+        }
+    }
+
+    /* Mobile adjustments */
+    @media (max-width: 991px) {
+        text-align: center;
+
+        .eventzo_booking_content {
+            margin-bottom: 30px;
+            max-width: 100%;
+        }
+
+        .eventzo_booking_title {
+            font-size: 1.75rem;
+        }
+
+        .eventzo_booking_form {
+            .eventzo_submit_btn {
+                width: 100%;
+            }
+        }
+    }
+}

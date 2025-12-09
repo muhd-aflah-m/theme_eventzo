@@ -1,0 +1,53 @@
+.s_eventzo_iso_section {
+    background: #fef6ec;   // same light creamy tone as example
+    color: #000;
+    text-align: center;
+
+    .s_eventzo_iso_badge img {
+        width: 130px;
+        height: auto;
+        object-fit: contain;
+    }
+
+    .s_eventzo_iso_subtitle {
+        font-size: 20px;
+        font-weight: 600;
+        color: #b8922a;
+        letter-spacing: 1px;
+    }
+
+    .s_eventzo_iso_title {
+        font-size: 32px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+
+    .s_eventzo_iso_text {
+        max-width: 900px;
+        margin: 0 auto;
+        line-height: 1.8;
+        font-size: 17px;
+    }
+
+    .s_eventzo_iso_separator {
+        width: 140px;
+        height: 4px;
+        margin: 0 auto;
+        border-bottom: 2px solid #b8922a;
+        position: relative;
+
+        &::before,
+        &::after {
+            content: "";
+            position: absolute;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            border: 2px solid #b8922a;
+            top: -6px;
+        }
+
+        &::before { left: 0; }
+        &::after { right: 0; }
+    }
+}

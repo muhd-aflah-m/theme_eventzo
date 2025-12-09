@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+  <template id="theme_eventzo_snippets" inherit_id="website.snippets">
+    <xpath expr="//t[@id='installed_snippets_hook']" position="after">
+      <t snippet-group="eventzo" t-snippet="website.s_snippet_group" string="eventzo" t-thumbnail="theme_eventzo/static/src/img/header.png" />
+    </xpath>
+  </template>
+
+  <template id="theme_eventzo_snippet_addition" inherit_id="website.snippets">
+    <snippets id="snippet_structure" string="Structure">
+      <t t-snippet="theme_eventzo.s_eventzo_hero" group="eventzo"/>
+      <t t-snippet="theme_eventzo.s_eventzo_stats_gallery" group="eventzo"/>
+      <t t-snippet="theme_eventzo.s_eventzo_iso_section" group="eventzo"/>
+      <t t-snippet="theme_eventzo.s_eventzo_cta" group="eventzo"/>
+      <t t-snippet="theme_eventzo.s_eventzo_services" group="eventzo"/>
+      <t t-snippet="theme_eventzo.s_eventzo_venue_banner" group="eventzo"/>
+      <t t-snippet="theme_eventzo.s_eventzo_contact" group="eventzo"/>
+      <t t-snippet="theme_eventzo.s_eventzo_about_hero" group="eventzo"/>
+      <t t-snippet="theme_eventzo.s_eventzo_about_content" group="eventzo"/>
+      <t t-snippet="theme_eventzo.s_eventzo_gallery_hero" group="eventzo"/>
+      <t t-snippet="theme_eventzo.s_eventzo_gallery_content" group="eventzo"/>
+      <t t-snippet="theme_eventzo.s_eventzo_contact_page" group="eventzo"/>
+      <t t-snippet="theme_eventzo.s_eventzo_work_with_us" group="eventzo"/>
+      <t t-snippet="theme_eventzo.s_eventzo_car_service" group="eventzo"/>
+      <t t-snippet="theme_eventzo.s_eventzo_car_section" group="eventzo"/>
+      <t t-snippet="theme_eventzo.s_eventzo_wedding_hero" group="eventzo"/>
+      <t t-snippet="theme_eventzo.s_eventzo_wedding_content" group="eventzo"/>
+      <t t-snippet="theme_eventzo.s_eventzo_wedding_service_details" group="eventzo"/>
+      <t t-snippet="theme_eventzo.s_eventzo_corporate_hero" group="eventzo"/>
+      <t t-snippet="theme_eventzo.s_eventzo_corporate_detail_section" group="eventzo"/>
+      <t t-snippet="theme_eventzo.s_eventzo_parties_hero" group="eventzo"/>
+      <t t-snippet="theme_eventzo.s_eventzo_parties_content" group="eventzo"/>
+      <t t-snippet="theme_eventzo.s_eventzo_party_services" group="eventzo"/>
+      <t t-snippet="theme_eventzo.s_eventzo_photography_hero" group="eventzo"/>
+      <t t-snippet="theme_eventzo.s_wedding_photography" group="eventzo"/>
+      <t t-snippet="theme_eventzo.s_wedding_services_grid" group="eventzo"/>
+      <t t-snippet="theme_eventzo.s_eventzo_photography_booking" group="eventzo"/>
+
+    </snippets>
+  </template>
+</odoo>

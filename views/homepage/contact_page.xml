@@ -1,0 +1,32 @@
+<odoo>
+    <template id="s_eventzo_contact_page" name="Eventzo Contact Section">
+        <section class="s_eventzo_contact o_cc o_cc1" data-name="Eventzo Contact Section">
+            <!-- Background and Overlay -->
+            <div class="eventzo_contact_bg"
+                 style="background-image: url('theme_eventzo/static/src/img/venue1.jpeg');"></div>
+            <div class="eventzo_contact_overlay"></div>
+
+            <!-- Content -->
+            <div class="container position-relative text-center text-white">
+                <div class="eventzo_contact_content">
+                    <h1 class="eventzo_contact_title mb16 animate__fadeInUp">Contact Us</h1>
+                    <p class="eventzo_contact_subtext animate__fadeInUp" style="animation-delay: 0.2s;">
+                        Need help planning your next event? Look no further than Eventzo Event Management
+                    </p>
+                    <p class="eventzo_contact_text animate__fadeInUp" style="animation-delay: 0.4s;">
+                        We can provide everything you need to ensure your event is a success.
+                    </p>
+
+                    <div class="eventzo_contact_buttons mt32 animate__fadeInUp" style="animation-delay: 0.6s;">
+                        <a href="/contact" class="btn eventzo_contact_btn_primary me-3">
+                            <i class="fa fa-envelope me-2"></i> Talk to Expert
+                        </a>
+                        <a href="https://wa.me/+123-11-001" target="_blank" class="btn eventzo_contact_btn_secondary">
+                            <i class="fa fa-whatsapp me-2"></i> Whatsapp Us
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+</odoo>

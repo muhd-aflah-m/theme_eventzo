@@ -1,0 +1,144 @@
+// static/src/scss/eventzo_venue_banner.scss
+
+.s_eventzo_venue_banner {
+    background: #ffffff;
+    position: relative;
+}
+
+.eventzo_venue_banner_wrapper {
+    background: #000000;
+    border-radius: 2rem;
+    padding: 3rem 4rem;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+}
+
+.eventzo_venue_banner_wrapper::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    right: -10%;
+    width: 500px;
+    height: 500px;
+    background: radial-gradient(circle, rgba(102, 126, 234, 0.15) 0%, transparent 70%);
+    border-radius: 50%;
+    pointer-events: none;
+}
+
+.eventzo_venue_images {
+    position: relative;
+    z-index: 2;
+}
+
+.eventzo_venue_image {
+    position: relative;
+    overflow: hidden;
+    border-radius: 0.75rem;
+    height: 160px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.eventzo_venue_image img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out, transform 0.5s ease;
+    pointer-events: none;
+}
+
+.eventzo_venue_image img.js_active {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.eventzo_venue_image:hover {
+    transform: translateY(-0.5rem);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.6);
+}
+
+.eventzo_venue_image:hover img.js_active {
+    transform: scale(1.05);
+}
+
+.eventzo_venue_content {
+    position: relative;
+    z-index: 2;
+    padding-left: 4rem;
+}
+
+.eventzo_venue_title {
+    font-size: 2.75rem;
+    font-weight: 700;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 1.5rem;
+    line-height: 1.2;
+}
+
+.eventzo_venue_text {
+    font-size: 1.05rem;
+    line-height: 1.7;
+    color: rgba(255, 255, 255, 0.85);
+    margin-bottom: 2.5rem;
+}
+
+.eventzo_venue_btn {
+    display: inline-flex;
+    align-items: center;
+    padding: 1rem 2.5rem;
+    background: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%);
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 3rem;
+    font-weight: 600;
+    font-size: 1.125rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 10px 30px rgba(139, 92, 246, 0.4);
+}
+
+.eventzo_venue_btn:hover {
+    background: linear-gradient(135deg, #7c3aed 0%, #6d28d9 100%);
+    transform: translateY(-2px);
+    box-shadow: 0 15px 40px rgba(139, 92, 246, 0.5);
+    color: #ffffff;
+}
+
+@media (max-width: 991px) {
+    .eventzo_venue_banner_wrapper {
+        padding: 2rem;
+    }
+
+    .eventzo_venue_content {
+        padding-left: 0;
+        margin-top: 2rem;
+        text-align: center;
+    }
+
+    .eventzo_venue_title {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .eventzo_venue_title {
+        font-size: 1.75rem;
+    }
+
+    .eventzo_venue_text {
+        font-size: 1rem;
+    }
+
+    .eventzo_venue_image {
+        height: 150px;
+    }
+
+    .eventzo_venue_banner_wrapper {
+        padding: 1.5rem;
+    }
+}

@@ -1,0 +1,174 @@
+// static/src/scss/eventzo_wedding_hero.scss
+
+.s_eventzo_wedding_hero {
+    position: relative;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    padding-top: 120px;
+    padding-bottom: 100px;
+}
+
+.eventzo_wedding_hero_bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 0;
+}
+
+.eventzo_wedding_hero_bg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.eventzo_wedding_hero_overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.4) 100%);
+    z-index: 1;
+}
+
+.s_eventzo_wedding_hero .container {
+    position: relative;
+    z-index: 2;
+}
+
+.eventzo_wedding_hero_content {
+    max-width: 700px;
+    padding: 2rem;
+}
+
+.eventzo_wedding_hero_title {
+    font-size: 4rem;
+    font-weight: 800;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 1.5rem;
+    line-height: 1.2;
+    text-shadow: 3px 5px 10px rgba(0, 0, 0, 0.4);
+    animation: fadeInUp 0.8s ease-out;
+}
+
+.eventzo_wedding_hero_text {
+    font-size: 1.125rem;
+    line-height: 1.8;
+    color: rgba(255, 255, 255, 0.95);
+    text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.3);
+    margin-bottom: 2.5rem;
+    animation: fadeInUp 0.8s ease-out 0.2s both;
+}
+
+.eventzo_wedding_hero_buttons {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    animation: fadeInUp 0.8s ease-out 0.4s both;
+}
+
+.eventzo_wedding_btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 2.5rem;
+    font-size: 1.125rem;
+    font-weight: 600;
+    border-radius: 3rem;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.eventzo_btn_talk {
+    background: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%);
+    color: #ffffff;
+}
+
+.eventzo_btn_talk:hover {
+    background: linear-gradient(135deg, #7c3aed 0%, #6d28d9 100%);
+    transform: translateY(-3px);
+    box-shadow: 0 15px 40px rgba(139, 92, 246, 0.5);
+    color: #ffffff;
+}
+
+.eventzo_btn_whatsapp {
+    background: linear-gradient(135deg, #25D366 0%, #128C7E 100%);
+    color: #ffffff;
+}
+
+.eventzo_btn_whatsapp:hover {
+    background: linear-gradient(135deg, #128C7E 0%, #075E54 100%);
+    transform: translateY(-3px);
+    box-shadow: 0 15px 40px rgba(37, 211, 102, 0.5);
+    color: #ffffff;
+}
+
+.eventzo_wedding_btn i {
+    font-size: 1.25rem;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(2rem);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 991px) {
+    .s_eventzo_wedding_hero {
+        min-height: 65vh;
+        padding-top: 100px;
+        padding-bottom: 80px;
+    }
+
+    .eventzo_wedding_hero_title {
+        font-size: 3rem;
+    }
+
+    .eventzo_wedding_hero_text {
+        font-size: 1.05rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .s_eventzo_wedding_hero {
+        min-height: 60vh;
+        padding-top: 80px;
+        padding-bottom: 60px;
+    }
+
+    .eventzo_wedding_hero_title {
+        font-size: 2.25rem;
+    }
+
+    .eventzo_wedding_hero_text {
+        font-size: 1rem;
+    }
+
+    .eventzo_wedding_hero_content {
+        padding: 1rem;
+    }
+
+    .eventzo_wedding_hero_buttons {
+        flex-direction: column;
+    }
+
+    .eventzo_wedding_btn {
+        width: 100%;
+        justify-content: center;
+    }
+}

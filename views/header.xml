@@ -1,0 +1,89 @@
+<!-- templates/header.xml -->
+<odoo>
+    <template id="eventzo_header" inherit_id="website.layout" name="Eventzo Header">
+        <xpath expr="//header" position="replace">
+        <header class="eventzo_header js_fixed_header">
+            <div class="container">
+                <nav class="eventzo_nav d-flex align-items-center justify-content-between">
+                    <!-- Logo -->
+                    <div class="eventzo_logo">
+                            <img src="/theme_eventzo/static/src/img/header.png" alt="Eventzo" class="eventzo_logo_img"/>
+                            <span class="eventzo_logo_text">Eventzo</span>
+                    </div>
+
+                    <!-- Desktop Navigation -->
+                    <div class="eventzo_nav_menu d-none d-lg-flex align-items-center">
+                        <a href="/" class="eventzo_nav_link js_active">HOME</a>
+                        <a href="/about" class="eventzo_nav_link">ABOUT</a>
+                        <div class="eventzo_nav_dropdown">
+                            <a href="#" class="eventzo_nav_link">
+                                SERVICES
+                                <i class="fa fa-chevron-down ms-1"></i>
+                            </a>
+                            <div class="eventzo_dropdown_menu">
+                                <a href="/services/weddings" class="eventzo_dropdown_item">Weddings</a>
+                                <a href="/services/corporate" class="eventzo_dropdown_item">Corporate Events</a>
+                                <a href="/services/party" class="eventzo_dropdown_item">Parties</a>
+                                <a href="/services/photograpghy" class="eventzo_dropdown_item">Wedding Photography &amp; Videography</a>
+                                <a href="/services/premium_wedding_service" class="eventzo_dropdown_item">Premium Wedding Vehicles</a>
+                            </div>
+                        </div>
+                            <a href="/gallery" class="eventzo_nav_link">
+                                GALLERY
+                            </a>
+                        <a href="/contact" class="eventzo_nav_link">CONTACT US</a>
+                    </div>
+
+                    <!-- Call Button -->
+                    <div class="eventzo_header_actions d-none d-lg-flex align-items-center">
+                        <a href="tel:+918590010011" class="eventzo_call_btn">
+                            <i class="fa fa-phone me-2"></i>
+                            +123-11-001
+                        </a>
+                    </div>
+
+                    <!-- Mobile Menu Toggle -->
+                    <button class="eventzo_mobile_toggle d-lg-none js_mobile_menu_toggle">
+                        <span class="eventzo_toggle_line"></span>
+                        <span class="eventzo_toggle_line"></span>
+                        <span class="eventzo_toggle_line"></span>
+                    </button>
+                </nav>
+            </div>
+
+            <!-- Mobile Menu -->
+            <div class="eventzo_mobile_menu js_mobile_menu">
+                <div class="eventzo_mobile_menu_inner">
+                    <a href="/" class="eventzo_mobile_link">HOME</a>
+                    <a href="/about" class="eventzo_mobile_link">ABOUT</a>
+                    <div class="eventzo_mobile_dropdown">
+                        <a href="/services" class="eventzo_mobile_link js_mobile_dropdown_toggle">
+                            SERVICES
+                            <i class="fa fa-chevron-down ms-auto"></i>
+                        </a>
+                        <div class="eventzo_mobile_submenu">
+                            <a href="/services/weddings" class="eventzo_mobile_sublink">Weddings</a>
+                            <a href="/services/corporate" class="eventzo_mobile_sublink">Corporate Events</a>
+                            <a href="/services/parties" class="eventzo_mobile_sublink">Parties</a>
+                            <a href="/services/conferences" class="eventzo_mobile_sublink">Conferences</a>
+                        </div>
+                    </div>
+                    <div class="eventzo_mobile_dropdown">
+                        <a href="/gallery" class="eventzo_mobile_link js_mobile_dropdown_toggle">
+                            GALLERY
+                        </a>
+                    </div>
+                    <a href="/contact" class="eventzo_mobile_link">CONTACT US</a>
+                    <a href="tel:+918590010011" class="eventzo_mobile_call_btn">
+                        <i class="fa fa-phone me-2"></i>
+                        +91-859-001-0011
+                    </a>
+                </div>
+            </div>
+        </header>
+        </xpath>
+    </template>
+</odoo>
+
+
+

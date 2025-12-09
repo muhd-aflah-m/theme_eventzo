@@ -1,0 +1,32 @@
+<!-- templates/parties_hero.xml -->
+<odoo>
+    <template id="s_eventzo_parties_hero" name="Eventzo Private Parties Hero">
+        <section class="s_eventzo_parties_hero" data-name="Eventzo Parties Hero">
+            <div class="eventzo_parties_hero_bg">
+                <img src="/theme_eventzo/static/src/img/party_hero.jpg" alt="Private Parties Eventzo"/>
+            </div>
+            <div class="eventzo_parties_hero_overlay"></div>
+            <div class="container">
+                <div class="eventzo_parties_hero_content">
+                    <h1 class="eventzo_parties_hero_title">Private Parties</h1>
+                    <p class="eventzo_parties_hero_text">
+                        Eventzo Event Management holds Private Parties and crafts unforgettable moments that leave
+                        lasting memories. From intimate gatherings to lavish affairs, we curate every detail
+                        with impeccable precision, blending local charm and global sophistication.
+                        Step into a world of bespoke celebrations where dreams come to life.
+                    </p>
+                    <div class="eventzo_parties_hero_buttons">
+                        <a href="tel:+123-11-001" class="eventzo_parties_btn eventzo_btn_talk">
+                            <i class="fa fa-phone-alt me-2"></i>
+                            Talk to Expert
+                        </a>
+                        <a href="https://wa.me/+123-11-001" target="_blank" class="eventzo_parties_btn eventzo_btn_whatsapp">
+                            <i class="fa fa-whatsapp me-2"></i>
+                            Whatsapp us
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+</odoo>

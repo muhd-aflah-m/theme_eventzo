@@ -1,0 +1,110 @@
+.s_eventzo_work_with_us {
+    background: #fff;
+    padding: 100px 0;
+    font-family: 'Poppins', sans-serif;
+    color: #222;
+
+    .eventzo_work_logo {
+        max-width: 160px;
+    }
+
+    .eventzo_work_title {
+        font-size: 28px;
+        font-weight: 700;
+        letter-spacing: 1px;
+    }
+
+    /* Contact info items */
+    .eventzo_contact_item {
+        display: flex;
+        align-items: flex-start;
+        gap: 10px;
+        i {
+            font-size: 28px;
+            color: #7b3ee6;
+        }
+
+        h6 {
+            font-size: 13px;
+            text-transform: uppercase;
+            margin-bottom: 4px;
+            color: #555;
+        }
+
+        .eventzo_contact_value {
+            font-size: 16px;
+            font-weight: 600;
+            color: #000;
+        }
+    }
+
+    /* Social icons */
+    .eventzo_socials a {
+        display: inline-block;
+        width: 38px;
+        height: 38px;
+        line-height: 38px;
+        text-align: center;
+        border-radius: 50%;
+        margin: 0 5px;
+        background: #7b3ee6;
+        color: #fff;
+        font-size: 16px;
+        transition: all 0.3s ease;
+
+        &:hover {
+            transform: translateY(-3px);
+            background: #a15ff5;
+        }
+    }
+
+    /* Form styling */
+    .eventzo_contact_form {
+        background: #fff;
+        border-radius: 8px;
+
+        input,
+        textarea {
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            font-size: 14px;
+            padding: 12px 14px;
+            box-shadow: none;
+            outline: none;
+            transition: all 0.3s ease;
+
+            &:focus {
+                border-color: #7b3ee6;
+                box-shadow: 0 0 4px rgba(123, 62, 230, 0.4);
+            }
+        }
+
+        .eventzo_submit_btn {
+            background: #7b3ee6;
+            color: #fff;
+            font-weight: 600;
+            letter-spacing: 1px;
+            border: none;
+            border-radius: 4px;
+            padding: 10px 26px;
+            transition: all 0.3s ease;
+
+            &:hover {
+                background: #a15ff5;
+            }
+        }
+    }
+
+    /* Responsive layout */
+    @media (max-width: 991.98px) {
+        text-align: center;
+
+        .eventzo_contact_item {
+            justify-content: center;
+        }
+
+        .eventzo_contact_form {
+            margin-top: 40px;
+        }
+    }
+}
