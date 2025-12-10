@@ -1,0 +1,127 @@
+<!-- templates/services_section.xml -->
+<odoo>
+    <template id="s_eventzo_services" name="Eventzo Services Section">
+        <section class="s_eventzo_services pt96 pb96" data-name="Eventzo Services">
+            <div class="container">
+                <!-- Section Header -->
+                <div class="row">
+                    <div class="col-12 text-center mb-4">
+                        <p class="eventzo_services_subtitle">OUR SERVICES</p>
+                        <h2 class="eventzo_services_title">Services by Eventzo® Event Management</h2>
+                        <div class="eventzo_services_divider">
+                            <span class="eventzo_divider_line"></span>
+                            <span class="eventzo_divider_dot"></span>
+                            <span class="eventzo_divider_line"></span>
+                        </div>
+                        <p class="eventzo_services_description">
+                            Eventzo® Event Management is an ISO 9001:2015 certified event management company
+                            providing services. We offer excellent, comprehensive event management services,
+                            including venue booking and selection assistance, personal event planning,
+                            corporate events and conferences, private parties, trade exhibitions, virtual event management services,
+                            destination weddings, and entertaining stage shows. Feel free to contact us.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Services Grid -->
+                <div class="row g-4 mt-3">
+                    <!-- Service 1 - Corporate Events -->
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="eventzo_service_card js_service_card">
+                            <div class="eventzo_service_image">
+                                <img src="/theme_eventzo/static/src/img/corporate.jpg" alt="Corporate Events"/>
+                                <div class="eventzo_service_overlay">
+                                    <i class="fa fa-briefcase"></i>
+                                </div>
+                            </div>
+                            <div class="eventzo_service_content">
+                                <h3 class="eventzo_service_name">Corporate Events</h3>
+                                <p class="eventzo_service_desc">Professional corporate event planning and management services</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Service 2 - Weddings -->
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="eventzo_service_card js_service_card">
+                            <div class="eventzo_service_image">
+                                <img src="/theme_eventzo/static/src/img/dest_wed6.jpg" alt="Wedding Events"/>
+                                <div class="eventzo_service_overlay">
+                                    <i class="fa fa-heart"></i>
+                                </div>
+                            </div>
+                            <div class="eventzo_service_content">
+                                <h3 class="eventzo_service_name">Wedding Planning</h3>
+                                <p class="eventzo_service_desc">Complete wedding and destination wedding management services</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Service 3 - Outdoor Events -->
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="eventzo_service_card js_service_card">
+                            <div class="eventzo_service_image">
+                                <img src="/theme_eventzo/static/src/img/outdoor_wed.jpg" alt="Outdoor Events"/>
+                                <div class="eventzo_service_overlay">
+                                    <i class="fa fa-tree"></i>
+                                </div>
+                            </div>
+                            <div class="eventzo_service_content">
+                                <h3 class="eventzo_service_name">Outdoor Events</h3>
+                                <p class="eventzo_service_desc">Beautiful outdoor and garden event setup and coordination</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Service 4 - Beach Events -->
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="eventzo_service_card js_service_card">
+                            <div class="eventzo_service_image">
+                                <img src="/theme_eventzo/static/src/img/dest_wed1.jpg" alt="Beach Events"/>
+                                <div class="eventzo_service_overlay">
+                                    <i class="fa fa-umbrella-beach"></i>
+                                </div>
+                            </div>
+                            <div class="eventzo_service_content">
+                                <h3 class="eventzo_service_name">Beach Events</h3>
+                                <p class="eventzo_service_desc">Stunning beachside celebrations and destination events</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Service 5 - Stage Shows -->
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="eventzo_service_card js_service_card">
+                            <div class="eventzo_service_image">
+                                <img src="/theme_eventzo/static/src/img/stage.jpeg" alt="Stage Shows"/>
+                                <div class="eventzo_service_overlay">
+                                    <i class="fa fa-music"></i>
+                                </div>
+                            </div>
+                            <div class="eventzo_service_content">
+                                <h3 class="eventzo_service_name">Stage Shows</h3>
+                                <p class="eventzo_service_desc">Entertainment and cultural programs with professional artists</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Service 6 - Birthday Parties -->
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="eventzo_service_card js_service_card">
+                            <div class="eventzo_service_image">
+                                <img src="/theme_eventzo/static/src/img/bdy_party.jpg" alt="Birthday Parties"/>
+                                <div class="eventzo_service_overlay">
+                                    <i class="fa fa-birthday-cake"></i>
+                                </div>
+                            </div>
+                            <div class="eventzo_service_content">
+                                <h3 class="eventzo_service_name">Birthday Parties</h3>
+                                <p class="eventzo_service_desc">Memorable birthday celebrations for all ages</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+</odoo>

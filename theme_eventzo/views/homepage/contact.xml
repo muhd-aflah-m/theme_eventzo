@@ -1,0 +1,114 @@
+<!-- templates/contact_section.xml -->
+<odoo>
+    <template id="s_eventzo_contact" name="Eventzo Contact Section">
+        <section class="s_eventzo_contact pt96 pb96" data-name="Eventzo Contact">
+            <div class="container">
+                <div class="row">
+                    <!-- Map and Location Tabs -->
+                    <div class="col-lg-6 mb-4 mb-lg-0">
+
+                        <!-- Map Container -->
+                        <div class="eventzo_map_wrapper">
+                            <!--  Map -->
+                            <div class="eventzo_map_container js_map_container js_active" data-location="kochi">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3929.0449367389844!2d76.29193931478447!3d10.012083292826487!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b080d514abec6bf%3A0x68bc3a5b7f5a1!2sKochi%2C%20Kerala!5e0!3m2!1sen!2sin!4v1234567890"
+                                        width="100%"
+                                        height="100%"
+                                        style="border:0;"
+                                        allowfullscreen=""
+                                        loading="lazy">
+                                </iframe>
+                                <div class="eventzo_map_overlay">
+                                    <div class="eventzo_map_info">
+                                        <h4>Eventzo Event Management</h4>
+                                        <a href="https://maps.google.com/?q=Eventzo+Kochi" target="_blank" class="eventzo_map_link">View larger map</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--Map -->
+                            <div class="eventzo_map_container js_map_container" data-location="thrissur">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.7587484447936!2d76.21419431478925!3d10.527081692604837!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba7ee15ed42d1bb%3A0x82e45aa016ca7db!2sThrissur%2C%20Kerala!5e0!3m2!1sen!2sin!4v1234567891"
+                                        width="100%"
+                                        height="100%"
+                                        style="border:0;"
+                                        allowfullscreen=""
+                                        loading="lazy">
+                                </iframe>
+                                <div class="eventzo_map_overlay">
+                                    <div class="eventzo_map_info">
+                                        <h4>Eventzo Event Management</h4>
+                                        <a href="https://maps.google.com/?q=Eventzo+Thrissur" target="_blank" class="eventzo_map_link">View larger map</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Calicut Map -->
+                            <div class="eventzo_map_container js_map_container" data-location="calicut">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3913.4254772471494!2d75.77596331479363!3d11.248621091992893!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba65c0e1c0799d3%3A0x92e5f1c18244beb3!2sCalicut%2C%20Kerala!5e0!3m2!1sen!2sin!4v1234567892"
+                                        width="100%"
+                                        height="100%"
+                                        style="border:0;"
+                                        allowfullscreen=""
+                                        loading="lazy">
+                                </iframe>
+                                <div class="eventzo_map_overlay">
+                                    <div class="eventzo_map_info">
+                                        <h4>Eventzo Event Management</h4>
+                                        <a href="https://maps.google.com/?q=Eventzo+Calicut" target="_blank" class="eventzo_map_link">View larger map</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Contact Form -->
+                    <div class="col-lg-6">
+                        <div class="eventzo_contact_form_wrapper">
+                            <h2 class="eventzo_contact_title">Get In Touch</h2>
+                            <p class="eventzo_contact_subtitle">Let's plan your perfect event together</p>
+
+                            <form class="eventzo_contact_form js_contact_form" action="/contactus" method="POST">
+                                <input type="hidden" name="csrf_token" t-att-value="request.csrf_token()"/>
+
+                                <div class="eventzo_form_group">
+                                    <input type="text"
+                                           name="name"
+                                           class="eventzo_form_input"
+                                           placeholder="Enter your Full Name"
+                                           required="required"/>
+                                </div>
+
+                                <div class="eventzo_form_group">
+                                    <input type="tel"
+                                           name="phone"
+                                           class="eventzo_form_input"
+                                           placeholder="Enter your Phone Number"
+                                           required="required"/>
+                                </div>
+
+                                <div class="eventzo_form_group">
+                                    <input type="email"
+                                           name="email"
+                                           class="eventzo_form_input"
+                                           placeholder="Enter your Email ID"
+                                           required="required"/>
+                                </div>
+
+                                <div class="eventzo_form_group">
+                                    <textarea name="message"
+                                              class="eventzo_form_textarea"
+                                              placeholder="Message"
+                                              rows="5"
+                                              required="required"></textarea>
+                                </div>
+
+                                <button type="submit" class="eventzo_form_submit">SUBMIT</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+</odoo>

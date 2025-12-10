@@ -1,0 +1,249 @@
+// Wedding Services Grid Section Styles
+.s_wedding_services_grid {
+    background-color: #f8f9fa;
+
+    // Main Title
+    .services_main_title {
+        font-size: 2.5rem;
+        font-weight: 700;
+        color: #1a1a1a;
+        margin-bottom: 3rem;
+        position: relative;
+
+        @media (max-width: 991px) {
+            font-size: 2rem;
+        }
+
+        @media (max-width: 575px) {
+            font-size: 1.75rem;
+        }
+    }
+
+    // Service Card
+    .service_card {
+        background: #ffffff;
+        border-radius: 12px;
+        overflow: hidden;
+        box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+        transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+
+        &:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+
+            .service_image {
+                transform: scale(1.08);
+            }
+
+            .service_overlay {
+                opacity: 1;
+            }
+        }
+    }
+
+    // Image Wrapper
+    .service_image_wrapper {
+        position: relative;
+        width: 100%;
+        height: 240px;
+        overflow: hidden;
+        background-color: #f0f0f0;
+
+        .service_image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.4s ease;
+        }
+
+        .service_overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
+            padding: 1rem;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+
+            .service_label {
+                color: #ffffff;
+                font-size: 0.875rem;
+                font-weight: 500;
+                display: block;
+                text-align: center;
+            }
+        }
+    }
+
+    // Content Section
+    .service_content {
+        padding: 1.5rem;
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+    }
+
+    // Service Title
+    .service_title {
+        font-size: 1.25rem;
+        font-weight: 700;
+        color: #1a1a1a;
+        margin-bottom: 1rem;
+        line-height: 1.4;
+        min-height: 2.8rem;
+
+        @media (max-width: 575px) {
+            font-size: 1.125rem;
+            min-height: auto;
+        }
+    }
+
+    // Features List
+    .service_features {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        flex-grow: 1;
+
+        li {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 0.875rem;
+            color: #4a4a4a;
+            font-size: 0.9375rem;
+            line-height: 1.6;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+
+            .feature_icon {
+                flex-shrink: 0;
+                margin-right: 0.75rem;
+                font-size: 1.1rem;
+                line-height: 1.6;
+            }
+
+            span:not(.feature_icon) {
+                flex: 1;
+            }
+        }
+    }
+
+    // Grid Gap
+    .row.g-4 {
+        row-gap: 1.5rem;
+
+        @media (max-width: 991px) {
+            row-gap: 1.25rem;
+        }
+    }
+
+    // Animation Classes
+    &.animate-cards {
+        .service_card {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        &.animated {
+            .service_card {
+                opacity: 1;
+                transform: translateY(0);
+
+                // Stagger animation
+                @for $i from 1 through 12 {
+                    &:nth-child(#{$i}) {
+                        transition-delay: #{$i * 0.08}s;
+                    }
+                }
+            }
+        }
+    }
+
+    // Responsive Adjustments
+    @media (max-width: 767px) {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+
+        .service_image_wrapper {
+            height: 200px;
+        }
+
+        .service_content {
+            padding: 1.25rem;
+        }
+    }
+
+    @media (max-width: 575px) {
+        .service_image_wrapper {
+            height: 180px;
+        }
+
+        .service_content {
+            padding: 1rem;
+        }
+
+        .service_features li {
+            font-size: 0.875rem;
+            margin-bottom: 0.75rem;
+
+            .feature_icon {
+                font-size: 1rem;
+                margin-right: 0.5rem;
+            }
+        }
+    }
+}
+
+// Additional hover effects for specific elements
+.service_card {
+    .service_title {
+        transition: color 0.3s ease;
+    }
+
+    &:hover .service_title {
+        color: #9370DB;
+    }
+}
+
+// Loading skeleton (optional)
+.service_card.loading {
+    .service_image_wrapper {
+        background: linear-gradient(
+            90deg,
+            #f0f0f0 25%,
+            #e0e0e0 50%,
+            #f0f0f0 75%
+        );
+        background-size: 200% 100%;
+        animation: loading 1.5s infinite;
+    }
+}
+
+@keyframes loading {
+    0% {
+        background-position: 200% 0;
+    }
+    100% {
+        background-position: -200% 0;
+    }
+}
+
+// Print styles
+@media print {
+    .s_wedding_services_grid {
+        background-color: #ffffff;
+
+        .service_card {
+            page-break-inside: avoid;
+            box-shadow: none;
+            border: 1px solid #e0e0e0;
+        }
+    }
+}

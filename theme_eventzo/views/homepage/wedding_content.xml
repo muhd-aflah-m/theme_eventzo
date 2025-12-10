@@ -1,0 +1,42 @@
+<!-- templates/wedding_content.xml -->
+<odoo>
+    <template id="s_eventzo_wedding_content" name="Eventzo Wedding Content">
+        <section class="s_eventzo_wedding_content pt96 pb96" data-name="Eventzo Wedding Content">
+            <div class="container">
+                <div class="row align-items-center">
+                    <!-- Text Content -->
+                    <div class="col-lg-6 mb-4 mb-lg-0">
+                        <div class="eventzo_wedding_text">
+                            <h2 class="eventzo_wedding_content_title">
+                                Enchanting Weddings with Eventzo: Your Premier Traditional and Destination Wedding
+                                Planners
+                            </h2>
+                            <p class="eventzo_wedding_paragraph">
+                                Eventzo's wedding planners, provide a wide range of services designed to
+                                help couples create the perfect wedding day. We start by getting to know the couple,
+                                listening to their wishes and ideas, and then working our magic to turn those dreams
+                                into reality.
+                            </p>
+                            <p class="eventzo_wedding_paragraph">
+                                Eventzo's wedding event planners and managers services are professional services
+                                provided to help
+                                couples plan, organize, and execute their wedding day. We work closely with couples to
+                                understand
+                                their vision, preferences, and budget to create a personalized plan for the wedding day.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Image -->
+                    <div class="col-lg-6">
+                        <div class="eventzo_wedding_image_wrapper">
+                            <img src="/theme_eventzo/static/src/img/bridendteam.jpg"
+                                 alt=""
+                                 class="eventzo_wedding_image"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+</odoo>

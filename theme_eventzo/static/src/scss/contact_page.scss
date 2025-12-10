@@ -1,0 +1,109 @@
+.s_eventzo_contact {
+    position: relative;
+    color: #fff;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    min-height: 80vh;
+    padding: 140px 0;
+    overflow: hidden;
+
+    /* Background */
+    .eventzo_contact_bg {
+        position: absolute;
+        inset: 0;
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        filter: brightness(0.55);
+        z-index: 1;
+        transform: scale(1.05);
+        transition: transform 3s ease;
+    }
+
+    &:hover .eventzo_contact_bg {
+        transform: scale(1.1); /* slight zoom on hover */
+    }
+
+    /* Overlay */
+    .eventzo_contact_overlay {
+        position: absolute;
+        inset: 0;
+        background: rgba(0, 0, 0, 0.55);
+        z-index: 2;
+    }
+
+    .container {
+        position: relative;
+        z-index: 3;
+    }
+
+    .eventzo_contact_content {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    .eventzo_contact_title {
+        font-size: 48px;
+        font-weight: 700;
+    }
+
+    .eventzo_contact_subtext,
+    .eventzo_contact_text {
+        font-size: 17px;
+        line-height: 1.7;
+        opacity: 0.9;
+    }
+
+    .eventzo_contact_buttons .btn {
+        border-radius: 30px;
+        font-size: 15px;
+        padding: 12px 28px;
+        transition: all 0.3s ease;
+    }
+
+    .eventzo_contact_btn_primary {
+        background: #b8922a;
+        color: #fff;
+        border: 2px solid #b8922a;
+
+        &:hover {
+            background: transparent;
+            color: #b8922a;
+        }
+    }
+
+    .eventzo_contact_btn_secondary {
+        background: #25d366;
+        color: #fff;
+        border: 2px solid #25d366;
+
+        &:hover {
+            background: transparent;
+            color: #25d366;
+        }
+    }
+
+    /* Responsive adjustments */
+    @media (max-width: 767.98px) {
+        padding: 100px 0;
+
+        .eventzo_contact_title {
+            font-size: 34px;
+        }
+
+        .eventzo_contact_buttons .btn {
+            display: block;
+            margin: 10px auto;
+        }
+    }
+
+    /* Fade-in animation */
+    @keyframes fadeInUp {
+        0% { opacity: 0; transform: translateY(40px); }
+        100% { opacity: 1; transform: translateY(0); }
+    }
+
+    .animate__fadeInUp {
+        animation: fadeInUp 1s ease forwards;
+    }
+}

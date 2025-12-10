@@ -1,0 +1,117 @@
+<odoo>
+    <template id="s_eventzo_car_section" name="Eventzo Enquiry Blog Section">
+        <section class="s_eventzo_enquiry_section o_cc o_cc1" data-name="Eventzo Enquiry Blog Section">
+            <div class="container">
+                <div class="row">
+                    <!-- Left Column: Blog / Service Content -->
+                    <div class="col-lg-8 col-md-12">
+                        <h2 class="eventzo_blog_title mb-3">
+                            Unforgettable luxury wedding cars for your special day.
+                        </h2>
+
+                        <p>
+                            Wedding car rental service is a fantastic business.
+                            <strong>Eventzo Event Management company</strong>
+                            offers the best wedding cars from various cities for your big day.
+                        </p>
+
+                        <p>
+                            The wedding ceremony is a very important event for every person’s life. They want to make their
+                            wedding day extra something special and memorable. Nowadays, couples desire to plan every aspect
+                            of their wedding, including decorations, makeup, <strong>wedding dance</strong>, entertainment, and DJs.
+                            Among these categories, wedding cars are an exceptional addition to each couple’s life.
+                        </p>
+
+                        <p>
+                            Make your grand entrance in style with our unforgettable collection of luxury wedding cars.
+                            From sleek modern classics to timeless vintage beauties, each vehicle is perfectly
+                            maintained to add sophistication and glamour to your special day.
+                            Let us turn your wedding journey into an experience as memorable as the ceremony itself.
+                        </p>
+
+                        <p>
+                            Your wedding day deserves nothing less than perfection. Our luxury wedding cars offer elegance, comfort, and class — ensuring you
+                            arrive with grace and leave with unforgettable memories. Experience the joy of traveling in pure style,
+                            making every moment of your big day truly special.
+                        </p>
+
+                        <p>
+                            Make a lasting impression on your special day with our premium range of luxury wedding cars.
+                            Designed to offer elegance, comfort, and class, our fleet features only the finest vehicles — perfect for
+                            couples who desire something truly exceptional.
+                        </p>
+
+                        <p>
+                            Each car is carefully detailed and maintained to perfection,
+                            ensuring every ride feels as special as the occasion itself. Our courteous chauffeurs deliver a seamless, stress-free experience,
+                            arriving on time and dressed with professionalism.
+                        </p>
+
+                        <p>
+                            Whether you dream of arriving in a sleek modern sedan or a charming vintage classic,
+                            our service guarantees an unforgettable entrance — because you deserve nothing less on your big day.
+                        </p>
+
+                        <p>
+                            The rental price for wedding cars starts at various prices. With this price, you can rent
+                            a wedding car for 80 kilometers and 8 hours on your wedding day. If you require more kilometers, an
+                            additional 50 rupees will be charged per kilometer. Similarly, if you need more hours, an extra 500 rupees
+                            will be added per hour. These are the standard prices for Kerala wedding cars.
+                        </p>
+
+                        <p>
+                            You can choose from various luxury vehicles like Audi, BMW, and Mercedes-Benz in this price range. Another
+                            category that many couples love is vintage cars. These vintage cars are available at similar prices.
+                        </p>
+
+                        <p>
+                            Apart from that, premium wedding luxury cars like Rolls-Royce and Jaguar are also available. While
+                            these cars might be more expensive, they are worth considering for their elegance and style. All cars come
+                            with experienced drivers and are available in all cities. Our event management planners are
+                            ready to assist you with your needs in almost every city. If you want a luxury wedding car for your
+                            event day, please contact us as soon as possible.
+                        </p>
+                    </div>
+
+                    <!-- Right Column: Enquiry Sidebar -->
+                    <div class="col-lg-4 col-md-12">
+                        <div class="eventzo_enquiry_sidebar">
+                            <!-- Top Image Card -->
+                            <div class="eventzo_enquiry_image_card mb-3">
+                                <img src="/theme_eventzo/static/src/img/venue3.jpeg"
+                                     alt="Enquiry Image" class="eventzo_enquiry_img"/>
+                                <div class="eventzo_enquiry_overlay">
+                                    <img src="/theme_eventzo/static/src/img/header.png"
+                                         alt="Eventzo" class="eventzo_logo_white mb-2"/>
+                                    <p class="small mb-0">ISO 9001:2015 CERTIFIED COMPANY</p>
+                                    <h5 class="mt-2 mb-1 fw-bold">Make an Enquiry!</h5>
+<!--                                    <a href="/contact" class="btn eventzo_enquiry_btn">Let's Talk</a>-->
+                                </div>
+                            </div>
+
+                            <!-- Form Card -->
+                            <div class="eventzo_enquiry_form_box">
+                                <h5 class="eventzo_form_title mb-3">Request quote</h5>
+                                <form class="eventzo_enquiry_form">
+                                    <div class="mb-3">
+                                        <input type="text" class="form-control" placeholder="Enter your Full Name" />
+                                    </div>
+                                    <div class="mb-3">
+                                        <input type="tel" class="form-control" placeholder="Enter your Phone Number" />
+                                    </div>
+                                    <div class="mb-3">
+                                        <input type="email" class="form-control" placeholder="Enter your Email ID" />
+                                    </div>
+                                    <div class="mb-3">
+                                        <textarea class="form-control" rows="4" placeholder="Message"></textarea>
+                                    </div>
+                                    <button type="submit" class="btn eventzo_submit_btn w-100">SUBMIT</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+</odoo>

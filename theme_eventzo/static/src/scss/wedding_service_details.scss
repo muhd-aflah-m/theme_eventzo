@@ -1,0 +1,87 @@
+.s_eventzo_wedding_details {
+    background-color: #fff8f6; /* soft peach background */
+    padding: 70px 0;
+    font-family: 'Poppins', sans-serif;
+    color: #222;
+
+    .eventzo_wedding_content {
+        max-width: 900px;
+        margin: 0 auto;
+
+        p {
+            font-size: 15px;
+            line-height: 1.9;
+            color: #333;
+            margin-bottom: 18px;
+        }
+
+        em {
+            color: #444;
+            font-style: italic;
+        }
+
+        strong {
+            color: #7b3ee6;
+            font-weight: 600;
+        }
+
+        h4 {
+            font-size: 18px;
+            font-weight: 700;
+            color: #111;
+            margin-top: 30px;
+            margin-bottom: 10px;
+        }
+
+        @media (max-width: 768px) {
+            p {
+                font-size: 14px;
+                line-height: 1.7;
+            }
+
+            h4 {
+                font-size: 17px;
+            }
+        }
+    }
+
+ /* Two perfectly side-by-side centered images with equal height */
+.eventzo_wedding_two_images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px; /* space between the images */
+    flex-wrap: nowrap;
+    margin: 40px auto;
+    max-width: 1100px;
+}
+
+/* Each image styling */
+.eventzo_two_img {
+    width: 50%;
+    height: 400px; /* ensures both have same height */
+    object-fit: cover; /* maintains crop ratio neatly */
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.eventzo_two_img:hover {
+    transform: scale(1.02);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+}
+
+/* Responsive stacking on small screens */
+@media (max-width: 768px) {
+    .eventzo_wedding_two_images {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .eventzo_two_img {
+        width: 100%;
+        height: 300px;
+    }
+}
+
+}
