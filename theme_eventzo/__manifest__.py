@@ -101,7 +101,7 @@
     ],
 
     'support': 'techvex.dev@gmail.com',
-    'price': 50.00,
+    'price': 10.00,
     'live_test_url': 'http://13.48.248.147:8070',
     'currency': 'USD',
     'installable': True,
