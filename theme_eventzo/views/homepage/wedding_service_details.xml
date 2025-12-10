@@ -1,0 +1,75 @@
+<odoo>
+    <template id="s_eventzo_wedding_service_details" name="Eventzo Wedding Service Details">
+        <section class="s_eventzo_wedding_details" data-name="Wedding Service Details">
+            <div class="container">
+                <div class="eventzo_wedding_content">
+                    <p>
+                        <em>As a leading wedding</em> event management agency,
+                        <strong>Eventzo Event Management</strong>
+                        provides a wide range of services:
+                    </p>
+
+                    <h4>Design and décor</h4>
+                    <p>
+                        At every wedding, design and décor are eye-catching elements that breathe life into any bridal occasion.
+                        Most destination wedding planners don’t conceptualize or coordinate all parts of the ceremony.
+                        But we are different. As one of the top wedding planning companies, we execute a wedding theme fully,
+                        with floral arrangements, lighting, props, and other elements according to your small or big requirements and creative vision.
+                        We expand our scope to provide décor services as well and engage in extensive brainstorming before demonstrating
+                        how a particular idea will meet your expectations.
+                    </p>
+                    <p>
+                        We also perform cost calculations and settle for an appropriate theme from all angles.
+                        Our in-house <strong>wedding decoration</strong> production makes it easier for us to handle all aspects of planning and execution.
+                    </p>
+
+                    <h4>Choosing a venue and a destination</h4>
+                    <p>
+                        Finding the ideal location for your wedding can be difficult and exhausting.
+                        Most <strong>destination wedding</strong> planners don’t do them as well as they should.
+                        There are several restrictions that apply to this activity, including time of year, spending limits, and the availability of a venue.
+                        With these facts in mind, as one of the best destination wedding planners,
+                        <strong>Eventzo Event Management</strong> coordinates with you to identify your dream location.
+                        We can make magic anyplace with reasonable <strong>destination wedding packages</strong>,
+                        including beaches, backwaters, or the highlands.
+                    </p>
+
+                    <h4>Food</h4>
+                    <p>
+                        Food is common and yet unique. We enjoy savoring various cuisines from across the world and strive to create menus and meal plans that
+                        appear beautiful and surprise guests. Therefore, we infuse thoughtful components to make eating extremely interesting.
+                        Everything appears to fall into place when the cuisine is tasty and presented well.
+                        Food can heavily influence wedding experiences; therefore, we collaborate with best caterers
+                        to bring special treats that satisfy your guests’ appetites.
+                    </p>
+
+                    <h4>Entertainment</h4>
+                    <p>
+                        A wedding becomes exciting and beautiful when all your favorite people are invited.
+                        Your guests are the life of the ceremony, so we ensure they are thoroughly pleased and entertained.
+                        Fun activities are planned for the evening — we could even bring a celebrity performer to dazzle the audience.
+                        With our wedding entertainment services, we can bring any of these concepts to life to satisfy your guests fully.
+                    </p>
+
+                    <h4>Contact and Communication</h4>
+                    <p>
+                        Seamless communication is one of the most essential components of a wedding.
+                        It takes a little creativity to draft and design wedding invitations that perfectly match the wedding’s theme.
+                        Our creative team at Eventzo works closely with you to ensure every element — from design to tone — reflects your unique celebration.
+                    </p>
+
+                    <!-- Two side-by-side centered wedding images -->
+                    <div class="eventzo_wedding_two_images">
+                        <img src="/theme_eventzo/static/src/img/wed_table.jpg"
+                             alt=""
+                             class="eventzo_two_img"/>
+                        <img src="/theme_eventzo/static/src/img/wed_chair.jpg"
+                             alt=""
+                             class="eventzo_two_img"/>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </template>
+</odoo>

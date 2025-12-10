@@ -1,0 +1,56 @@
+<!-- templates/venue_banner_section.xml -->
+<odoo>
+    <template id="s_eventzo_venue_banner" name="Eventzo Venue Banner">
+        <section class="s_eventzo_venue_banner pt80 pb80" data-name="Eventzo Venue Banner">
+            <div class="container">
+                <div class="eventzo_venue_banner_wrapper">
+                    <div class="row align-items-center">
+                        <!-- Image Grid with Sliders -->
+                        <div class="col-lg-5">
+                            <div class="eventzo_venue_images">
+                                <div class="row g-2">
+                                    <div class="col-6">
+                                        <div class="eventzo_venue_image js_venue_slider" data-slider-id="1">
+                                            <img src="/theme_eventzo/static/src/img/dest_wed9.png" alt="Venue 1" class="js_venue_img js_active"/>
+                                            <img src="/theme_eventzo/static/src/img/venue1.jpeg" alt="Venue 1" class="js_venue_img"/>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="eventzo_venue_image js_venue_slider" data-slider-id="2">
+                                            <img src="/theme_eventzo/static/src/img/dest_wed10.jpg" alt="Venue 2" class="js_venue_img js_active"/>
+                                            <img src="/theme_eventzo/static/src/img/venue3.jpeg" alt="Venue 2" class="js_venue_img"/>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="eventzo_venue_image js_venue_slider" data-slider-id="3">
+                                            <img src="/theme_eventzo/static/src/img/venue2.jpg" alt="Venue 3" class="js_venue_img js_active"/>
+                                            <img src="/theme_eventzo/static/src/img/luxury.jpg" alt="Venue 3" class="js_venue_img"/>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="eventzo_venue_image js_venue_slider" data-slider-id="4">
+                                            <img src="/theme_eventzo/static/src/img/venue4.jpg" alt="Venue 4" class="js_venue_img js_active"/>
+                                            <img src="/theme_eventzo/static/src/img/dest_wed8.jpg" alt="Venue 4" class="js_venue_img"/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Content -->
+                        <div class="col-lg-7">
+                            <div class="eventzo_venue_content">
+                                <h2 class="eventzo_venue_title">Struggling to find the perfect venue?</h2>
+                                <p class="eventzo_venue_text">
+                                    Find your perfect venue hassle-free with Eventzo.<br/>
+                                    Easy booking, endless choices.
+                                </p>
+                                <a href="/contact" class="eventzo_venue_btn">Contact Us</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+</odoo>

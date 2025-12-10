@@ -1,0 +1,44 @@
+<odoo>
+    <template id="s_eventzo_photography_booking" name="Eventzo Photography Booking Section">
+        <section class="s_eventzo_photography_booking" data-name="Eventzo Photography Booking">
+            <div class="container">
+                <div class="row align-items-center">
+                    <!-- Left Column (Text) -->
+                    <div class="col-lg-6 col-md-12 mb-4 mb-lg-0">
+                        <div class="eventzo_booking_content">
+                            <p class="eventzo_booking_subtitle">
+                                CAPTURE YOUR PERFECT WEDDING MOMENTS WITH EVENTZO!
+                            </p>
+                            <h2 class="eventzo_booking_title">
+                                Book Your  Wedding <br/> Photographers Today!
+                            </h2>
+                            <p class="eventzo_booking_text">
+                                Contact us now to discuss your vision and secure the perfect photographer for your big day.
+                                Don’t wait—your happily-ever-after begins with Eventzo!
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Right Column (Form) -->
+                    <div class="col-lg-6 col-md-12">
+                        <form class="eventzo_booking_form">
+                            <div class="mb-3">
+                                <input type="text" class="form-control" placeholder="Enter your Full Name" />
+                            </div>
+                            <div class="mb-3">
+                                <input type="tel" class="form-control" placeholder="Enter your Phone Number" />
+                            </div>
+                            <div class="mb-3">
+                                <input type="email" class="form-control" placeholder="Enter your Email ID" />
+                            </div>
+                            <div class="mb-3">
+                                <textarea class="form-control" rows="4" placeholder="Message"></textarea>
+                            </div>
+                            <button type="submit" class="eventzo_submit_btn">SUBMIT</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+</odoo>

@@ -1,0 +1,136 @@
+<odoo>
+    <template id="eventzo_footer" inherit_id="website.layout" name="Eventzo Footer">
+        <xpath expr="//footer" position="replace">
+            <footer class="eventzo_footer">
+                <!-- Background Image -->
+                <div class="eventzo_footer_bg"
+                     style="background-image: url('/theme_eventzo/static/src/img/footer_bg.jpeg');">
+                </div>
+
+                <!-- Dark Overlay -->
+                <div class="eventzo_footer_overlay"></div>
+
+
+                <div class="container position-relative">
+                    <!-- Social Icons -->
+                    <div class="text-center mb24 eventzo_footer_socials">
+                        <a href="#">
+                            <i class="fa fa-instagram"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa fa-youtube-play"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa fa-linkedin"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa fa-twitter"></i>
+                        </a>
+                    </div>
+
+                    <!-- Logo and Description -->
+                    <div class="text-center mb40">
+                        <img src="/theme_eventzo/static/src/img/header.png" alt="Eventzo"
+                             class="eventzo_footer_logo mb16"/>
+                        <p class="eventzo_footer_desc">
+                            Planning a full event has never been easier! Eventzo Event Management, an ISO 9001:2015
+                            Certified Event Management Company, offers a wide range of services to make your events
+                            stress-free and memorable. From premium corporate events and destination wedding planning to
+                            small-scale birthday parties and private gatherings, you can be sure we have it all covered.
+                        </p>
+                    </div>
+
+                    <!-- Footer Links -->
+                    <div class="row eventzo_footer_links">
+                        <div class="col-md-3 mb24">
+                            <h5 class="eventzo_footer_heading">QUICK LINKS</h5>
+                            <ul class="eventzo_footer_list">
+                                <li>
+                                    <a href="/">Home</a>
+                                </li>
+                                <li>
+                                    <a href="/about">About</a>
+                                </li>
+                                <li>
+                                    <a href="/gallery">Photo Gallery</a>
+                                </li>
+                                <li>
+                                    <a href="/contact">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="col-md-3 mb24">
+                            <h5 class="eventzo_footer_heading">SERVICES</h5>
+                            <ul class="eventzo_footer_list">
+                                <li>
+                                    <a href="/services/corporate">Corporate Events</a>
+                                </li>
+                                <li>
+                                    <a href="/services/weddings">Weddings</a>
+                                </li>
+                                <li>
+                                    <a href="/services/party">Private Parties</a>
+                                </li>
+                                <li>
+                                    <a href="/services/photograpghy">Photograpghy &amp; Videograpghy</a>
+                                </li>
+                                <li>
+                                    <a href="/services/premium_wedding_service">Premium Wedding Vehicle</a>
+                                </li>
+                            </ul>
+                        </div>
+
+
+                        <div class="col-md-3 mb24">
+                            <h5 class="eventzo_footer_heading">CONTACT INFO</h5>
+                            <ul class="eventzo_footer_list eventzo_footer_contact">
+                                <li>
+                                    <i class="fa fa-map-marker"></i>
+                                    Eventzo Event Management
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Divider -->
+                    <div class="eventzo_footer_divider mt24 mb16"></div>
+
+                    <!-- Contact Row -->
+                    <div class="row align-items-center eventzo_footer_contact_row mb24 text-center">
+                        <div class="col-md-4 mb8">
+                            <i class="fa fa-phone me-2"></i>
+                            +91-859-001-0011
+                        </div>
+                        <div class="col-md-4 mb8">
+                            <i class="fa fa-envelope-o me-2"></i>
+                            eventzomanagement@gmail.com
+                        </div>
+                        <div class="col-md-4 mb8">
+                            <span>DMCA PROTECTED</span>
+                        </div>
+                    </div>
+
+                    <!-- Copyright -->
+                    <div class="eventzo_footer_divider_thin mb16"></div>
+                    <div class="row eventzo_footer_bottom text-center">
+                        <div class="col-md-6 mb8">
+                            © 2008–2025 Eventzo Event Management. All Rights Reserved.
+                        </div>
+                        <div class="col-md-6 mb8">
+                            Powered by Techvex Digital Solutions
+                        </div>
+                    </div>
+
+                    <!-- WhatsApp Button -->
+                    <a href="#" class="eventzo_whatsapp_btn">
+                        <i class="fa fa-whatsapp"></i>
+                    </a>
+                </div>
+            </footer>
+        </xpath>
+    </template>
+</odoo>

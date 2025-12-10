@@ -1,0 +1,30 @@
+<odoo>
+    <template id="s_eventzo_corporate_hero" name="Eventzo Corporate Hero Section">
+        <section class="s_eventzo_corporate_hero" data-name="Eventzo Corporate Hero">
+            <div class="eventzo_corporate_hero_bg">
+                <img src="/theme_eventzo/static/src/img/compaany.jpeg" alt=""/>
+            </div>
+            <div class="eventzo_corporate_hero_overlay"></div>
+            <div class="container text-center">
+                <div class="eventzo_corporate_hero_content">
+                    <h1 class="eventzo_corporate_hero_title">
+                        Corporate Event Management Companies
+                    </h1>
+                    <p class="eventzo_corporate_hero_text">
+                        Experience the magic of top corporate event management companies.
+                        If you want to make a statement at your next corporate event, partner with Eventzo
+                        Event Management Company.
+                    </p>
+                    <div class="eventzo_corporate_hero_buttons">
+                        <a href="tel:+123-11-001" class="eventzo_btn_talk">
+                            <i class="fa fa-phone me-2"></i> Talk to Expert
+                        </a>
+                        <a href="https://wa.me/+123-11-001" class="eventzo_btn_whatsapp">
+                            <i class="fa fa-whatsapp me-2"></i> Whatsapp us
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+</odoo>

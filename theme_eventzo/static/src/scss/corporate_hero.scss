@@ -1,0 +1,129 @@
+.s_eventzo_corporate_hero {
+    position: relative;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    padding-top: 100px;
+    padding-bottom: 80px;
+    text-align: center;
+}
+
+.eventzo_corporate_hero_bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 0;
+}
+
+.eventzo_corporate_hero_bg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    filter: blur(4px);
+}
+
+.eventzo_corporate_hero_overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.45);
+    z-index: 1;
+}
+
+.s_eventzo_corporate_hero .container {
+    position: relative;
+    z-index: 2;
+}
+
+.eventzo_corporate_hero_content {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.eventzo_corporate_hero_title {
+    font-size: 3.5rem;
+    font-weight: 800;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.3;
+    margin-bottom: 1rem;
+    text-shadow: 2px 3px 8px rgba(0, 0, 0, 0.3);
+    animation: fadeInUp 0.8s ease-out;
+}
+
+.eventzo_corporate_hero_text {
+    font-size: 1.1rem;
+    color: rgba(255, 255, 255, 0.9);
+    line-height: 1.8;
+    margin-bottom: 2rem;
+    animation: fadeInUp 0.8s ease-out 0.2s both;
+}
+
+.eventzo_corporate_hero_buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    animation: fadeInUp 0.8s ease-out 0.4s both;
+}
+
+.eventzo_btn_talk,
+.eventzo_btn_whatsapp {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.8rem 2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+}
+
+.eventzo_btn_talk {
+    background: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%);
+}
+
+.eventzo_btn_talk:hover {
+    background: linear-gradient(135deg, #7c3aed 0%, #6d28d9 100%);
+    transform: translateY(-3px);
+}
+
+.eventzo_btn_whatsapp {
+    background: linear-gradient(135deg, #25D366 0%, #128C7E 100%);
+}
+
+.eventzo_btn_whatsapp:hover {
+    background: linear-gradient(135deg, #128C7E 0%, #075E54 100%);
+    transform: translateY(-3px);
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(2rem);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 768px) {
+    .eventzo_corporate_hero_title {
+        font-size: 2.2rem;
+    }
+    .eventzo_corporate_hero_text {
+        font-size: 1rem;
+    }
+}
