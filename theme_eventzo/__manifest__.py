@@ -1,9 +1,9 @@
 {
-    'name': 'Eventzo Theme',
-    'summary': 'TECHVEX',
+    'name': 'Theme Eventzo',
+    'summary': 'A Full Packaged Event Managment System',
     'category': 'Theme',
     'version': '19.0.1.0',
-    'author': 'Techvex',
+    'author': 'TECHVEX',
     'depends': [
         'website',
         'theme_default',
