@@ -1,6 +1,6 @@
 {
     'name': 'Eventzo Theme',
-    'summary': 'Techvex',
+    'summary': 'TECHVEX',
     'category': 'Theme',
     'version': '19.0.1.0',
     'author': 'Techvex',
