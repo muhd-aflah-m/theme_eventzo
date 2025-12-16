@@ -96,7 +96,7 @@
 
     'images': [
         'static/description/eventzo_cover.gif',
-        'static/description/eventzo_screenshot.gif',
+        'static/description/eventzoo_screenshot.gif',
 
     ],
 
