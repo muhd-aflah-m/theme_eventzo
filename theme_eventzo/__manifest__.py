@@ -1,9 +1,9 @@
 {
-    'name': 'Eventzo Theme',
-    'summary': 'Techvex',
+    'name': 'Theme Eventzo',
+    'summary': 'A Full Packaged Event Managment System',
     'category': 'Theme',
     'version': '19.0.1.0',
-    'author': 'Techvex',
+    'author': 'TECHVEX',
     'depends': [
         'website',
         'theme_default',
@@ -101,7 +101,8 @@
     ],
 
     'support': 'techvex.dev@gmail.com',
-    'price': 17.00,
+    'price': 13.00,
+    'live_test_url': 'http://13.48.248.147:8070',
     'currency': 'USD',
     'installable': True,
     'auto_install': False,
